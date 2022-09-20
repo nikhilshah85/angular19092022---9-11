@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+		Day 1 : Web Revolution 
+			Angular Topics
+			Software setup
+				Node JS
+				VS Code
+				Angular Cli
+
+------------------------------------------------------------------------------------------------
+		Day 2 : Create your first angular app
+			Angular Project structure
+			What is a component

@@ -1,0 +1,96 @@
+node -v
+npm -v
+ng --version
+ng new firstangularapp
+
+--------------------------------------------------------
+Angular Development 
+
+1. Component
+	employee.component.html
+	employee.component.css
+	employee.component.ts  (this is your class and has an attribute to refer to html and css)
+	employee.component.spec.tc (for test cases)
+
+	-------------------------------------------------------------------------------
+	Component Development
+
+	a. in the app folder, create a new folder Components, under components folder create products folder
+
+	b. add below files in product folder
+		product.component.html
+		product.component.css
+		product.component.ts
+
+	c. in the ts file, create a new class, add properties, import component from angular/core
+		
+		import { Component  } from "@angular/core";
+
+
+
+
+@Component({
+    selector:'product',
+    templateUrl:'./product.component.html',
+    styleUrls:['./product.component.css']
+})
+export class Product
+{
+
+    pId = 101;
+    pName = "Pepsi";
+    pCategory="Cold-Drinks";
+    pPrice = 50;
+    pIsInStock = true;
+    pQty = 20;
+}
+
+
+
+	d. add intepolations in .html file to display
+
+
+	
+<div>
+    <h1> Product Id : {{ pId }}</h1>
+    <h1> Product Name : {{ pName }} </h1>
+    <h1> Product Category : {{ pCategory }} </h1>
+    <h1> Product Price : {{ pPrice }} </h1>
+    <h1> Product Is In Stock : {{ pIsInStock }} </h1>
+    <h1> Product Qty : {{ pQty }} </h1>
+</div>
+
+
+	e. add style in .css file
+	div{
+		    background-color: lightseagreen;
+		    color: blueviolet;
+	}
+
+	f. Register the component in app.module.ts under the declaration section
+		import { Product } from './Components/Products/product.component';
+
+@NgModule({
+  declarations: [
+    AppComponent, Product
+  ],
+
+
+	g. in the app.component.html inject products component for display
+
+
+		<product></product>
+
+	h. Build and run the application 
+
+
+	
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+
+
+
+
+					Web revolution
+
+		1. World Average - ppl started using internet - 2008
+		2. What did you use internet for - surfing, check result, play games etc...
+		3. Source of internet - Telephone, lan cable
+		4. Devise - Desktop / Laptop (14 by 14 or 13 or 15)
+			Thus web developers had to create web apps keeping this things in mind		
+		---------------------------------------------------------------------------------------------------
+	
+		Today - 
+		Internet is used for everything
+		Source of internet - 2G, 3G, 4G, LTE etc... This is slower and fluctuating as you keep moving
+		Devise changed everything
+			Resolution 
+			Hardware 
+			User habbits - zoom in zoom out with a fingure
+				       rotate the devise 
+					use of camera, navigation, locator, check in check 
+		because of all this, application has shifted from server centeric to client centeric application
+			i.e from .net, java, c++ to HTML, CSS and JS
+						     JS was not object oriented 
+					ECMA script was introducted which was OOPS JS (ES6)
+
+					Microsoft came in - understood ES6 and 7, made it east for developer, 
+										gave compilers, classes, everything like C# and Java
+									called it as Typescript
+	---------------------------------------------------------------------------------------------------
+			based on TS, Google introducted Angular framework which is used to develop client centeric application
+
+
+
+
+			Angular is all about developing components
+			Component is (HTM + CSS + TS)
+
+	-----------------------------------------------------------------------------------------------------------
+
+	
+		Software 
+			1. NodejS 
+			2. VS Code 
+			3. Install angular and angular cli
+				npm install @angular/cli --location=global
+
+	-----------------------------------------------------------------------------------------------------------
+		Days review
+			a. Web Revolution
+			b. software setup
+			c. Angular ecosystem intro
+
+		Tomorrow : Practiacals and Lab
+			a. Create first angular Application using CLI
+			b. undersand components and interpolations
+			c. get started with TS
+			d. create and use your first Angular component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+				
+		
