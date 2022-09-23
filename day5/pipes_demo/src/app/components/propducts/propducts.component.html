@@ -1,0 +1,14 @@
+
+
+
+
+<div>
+
+    <h1> Product Id : {{ productList.pId }}</h1>
+    <h1> Product Name : {{ productList.pName | uppercase }}</h1>
+    <h1> Product Category : {{ productList.pCategory | lowercase}}</h1>
+    <h1> Product Manufacturer : {{ productList.pManufacturer | titlecase }}</h1>
+    <h1> Product Price : {{ productList.pPrice | currency : 'INR'}}</h1>
+    <h1> DOM : {{productList.dateofMnufacture | date}}</h1>
+    
+</div>

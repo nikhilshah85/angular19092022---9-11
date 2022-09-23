@@ -1,0 +1,17 @@
+In the same day folder - create a new project - shopping app
+
+	in the app.component.ts create  new array of Products JSON objects
+
+
+	productList= [
+		pId, pname, pCatergory, pPrice, pQty, pDiscount 
+	]
+
+
+	display the values in a table and we need below columns
+
+		pId pName, pCategory, pPrice, pQty, pDiscount, pOfferPrice (pPrice - pQty)
+
+-----------------------------------------------------------------------------------------------------
+
+		Tomorrow: Develop your own components

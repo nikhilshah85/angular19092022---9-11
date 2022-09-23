@@ -1,0 +1,9 @@
+1. Component
+2. Pipes - use this for formatting data on UI
+	Inbuilt pipe 
+		uppercase
+		lowercase
+		currency
+		json
+		date
+	Custom Pipe
