@@ -1,0 +1,26 @@
+Create a new Compnent Stocks
+	it will have a variables
+
+
+	stockHoldings = [
+		{sid, sName, sQty, sPurchasePrice, sCurrentPrice}
+
+
+	]
+
+	add 10 records here and display it on the page
+
+----------------------------------------------------------------------
+create a pipe investmentstatus
+
+	if buy price is < currentprice - return profile
+	if buy price is > currentprice - return loss
+	else return neutral
+
+	test the pipe
+-------------------------------------------------------------------
+create a pipe investmentreturns
+	this will return (buyprice - currentPrice) * qty
+
+test the pipe
+	

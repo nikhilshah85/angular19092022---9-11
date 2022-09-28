@@ -1,0 +1,26 @@
+
+
+<hr/>
+
+<h1> I am an Employee Component</h1>
+
+<h2> {{ empName | greetings}}</h2>
+
+
+<h1> Salary : {{ empSalary }} </h1>
+
+<h1> Bonus : {{ empSalary | empbonus : 20 : 'HR' }}</h1>
+
+
+<table>
+    <tr *ngFor="let em of empSalaryDetils">
+        <td>  {{  em.empSalary  }} </td>
+        <td>  {{  em.empSalary  | empbonus : 10 : em.empDesignation}} </td>
+    </tr>
+</table>
+
+<ul>
+    <li *ngFor="let e of empList">
+        {{e | greetings}}
+    </li>
+</ul>
