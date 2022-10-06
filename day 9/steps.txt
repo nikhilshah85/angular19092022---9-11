@@ -1,0 +1,63 @@
+1. From SQL Server Management studio
+	create a new database
+	add a table with sample data
+
+2. open visual studio 2022
+	create a new webapi project
+
+3. Solution explorer - right click - add nuget packages - browse
+	Search - EntityFrameworkCore 
+	Install below 4 packages in sequence
+	
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+
+4. Build the app, tools -> Nuget package manager - Nuget package manager console
+
+Fire below command - change the value for your server name and database name
+
+Scaffold-DbContext "server=WIN8\NIKHILINSTANCE;database=productsManagementDB ;integrated security=true" -OutputDir Model\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+	
+5. Right click on controller folder, add new controller - choose api -- choose 
+	api controller with Entity Framework with actions
+	choose the name of your table and dbcontext class - both which were generated 	from 	step 4
+
+6. go to controller file
+	instanaciate a new object of dbContext class
+	
+	private readonly productsManagementDBContext _context = new 							productsManagementDBContext();
+
+7. comment / remove constructor
+
+8. build the app and run the app - test the api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+create database productsManagementDB
+
+use productsManagementDB
+
+create table products
+(
+	pId int primary key,
+	pName varchar(20),
+	pCategory varchar(20),
+	pPrice int,
+	pIsInStock bit
+)
+
+insert into products values(101,'Pepsi','Cold-Drink',50,1)
+insert into products values(102,'Maggie','Junk-Food',75,1)
+insert into products values(103,'Pasta','Junk-Food',125,0)
+insert into products values(104,'Pepsodent','toothpaste',250,1)
+insert into products values(105,'Fanta','Cold-Drink',50,0)
+
+
+
+
+select * from products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
